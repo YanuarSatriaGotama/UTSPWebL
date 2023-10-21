@@ -1,0 +1,264 @@
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: "Times New Roman", Times, serif;
+}
+
+a{
+	color: #2C272E;
+	text-decoration: none;
+}
+
+.box{
+	width: 700px;
+	height: 500px;
+	border: 5px solid #1C0C5B;
+	margin: 30px auto; 
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+.box div{
+	width: 300px;
+	margin: 4px;
+}
+
+div.sticky {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+.medsos{
+	padding: 5px 0;
+	background-color: #3D2C8D;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+header h1{
+	float: left;
+	padding: 15px 0px;
+	color: #1C0C5B;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #3D2C8D;
+	color: #fff;
+}
+.active{
+	background-color: #3D2C8D;
+	color: #fff;
+}
+
+h1.title {
+	padding: 40px 0;
+	text-align: center;
+    color: #FFE652;
+    background-color: #1C0C5B;
+}
+
+.content {
+	margin: 20px;
+	padding-bottom: 20px;
+	background-color: #916BBF;
+}
+
+footer{
+	padding: 30px 0;
+    color: #FFE652;
+    background-color: #3D2C8D;
+	text-align: center;
+	padding: 10px 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+}
+
+table {
+	border-collapse: collapse;
+	width: 45%;
+	display: flex;
+	margin: 20px auto;
+}
+
+
+.tabel {
+	border-collapse: collapse;
+	width: 65%;
+	display: flex;
+	margin: 20px auto;
+}
+
+.tabel1 {
+	border-collapse: collapse;
+	width: 53%;
+	display: flex;
+	margin: 20px auto;
+}
+
+th,
+td {
+	text-align: center;
+	padding: 10px;
+	background-color: #f2f2f2;
+}
+
+th {
+	background-color: #1C0C5B;
+	color: white;
+	padding: 25px;
+}
+
+button {
+	padding: 10px 15px;
+	color: #eefa0f;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+button.create {
+	padding: 15px 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+    background-color: #3D2C8D;
+}
+
+button.sort {
+	padding: 15px 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+    background-color: #3D2C8D;
+}
+
+button.create i {
+	margin: 10px;
+}
+
+button.update {
+	background-color: #3D2C8D;
+}
+
+button.delete {
+	background-color: #ff0000;
+}
+
+button.delete_all {
+	padding: 15px 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	background-color: #ff0000;
+}
+
+button.sorting {
+	padding: 15px 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	background-color: #3D2C8D;
+}
+
+button.logout {
+	padding: 15px 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	background-color: #ff0000;
+}
+
+button.search {
+	padding: 15px 25px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	background-color: #3D2C8D;
+}
+
+button.refresh {
+	padding: 15px 25px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	background-color: #B983FF;
+}
+
+.form_search{
+	color: black;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 5px;
+
+	padding: 15px 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.kotak_login {
+    margin: 0 auto; /* Tengahkan form */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form_update {
+    width: 100%; /* Menghapus lebar maksimum */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label{
+	padding: 10px 15px;
+	color: #eefa0f;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 5px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+
+}
